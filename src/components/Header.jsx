@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <header className="py-8 flex justify-between items-center">
-      <div className="text-4xl font-bold text-blue-950">Leon Kister</div>
+      <div className="signature text-4xl font-bold text-blue-950">Leon Kister</div>
       
       <nav className="space-x-4 text-xl font-normal flex">
         <Link
