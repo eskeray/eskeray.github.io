@@ -4,7 +4,7 @@ import profileImage from "../assets/profile.jpg"
 
 const Hero = () => {
   return (
-    <section className="pt-24 flex flex-col md:flex-row items-center justify-between">
+    <section className="pt-21 flex flex-col md:flex-row items-center justify-between">
       
       {/* Left Side */}
       <div className="max-w-3xl space-y-6">
