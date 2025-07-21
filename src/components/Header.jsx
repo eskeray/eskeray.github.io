@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom"
+import { FaDownload } from "react-icons/fa"
 
 const Header = () => {
   const location = useLocation()
@@ -40,9 +41,10 @@ const Header = () => {
       <a
         href="/resume.pdf"
         download
-        className="border border-blue-950 text-blue-950 px-6 py-3 rounded-4xl text-xl font-medium hover:bg-blue-950 hover:text-white transition"
+        className="flex items-center gap-x-2 border border-blue-950 text-blue-950 px-6 py-3 rounded-4xl text-xl font-medium hover:bg-blue-950 hover:text-white transition"
       >
         Resume
+        <FaDownload className="text-lg" />
       </a>
     </header>
   )
