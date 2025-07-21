@@ -5,7 +5,7 @@ import Projects from "./pages/Projects"
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
