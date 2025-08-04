@@ -44,7 +44,7 @@ const Header = () => {
       </nav>
 
       <a
-        href="/resume.pdf"
+        href="src/assets/resume.pdf"
         download
         className="hidden md:flex items-center gap-x-2 border border-blue-950 text-blue-950 px-6 py-3 rounded-4xl text-xl font-medium hover:bg-blue-950 hover:text-white transition"
       >
