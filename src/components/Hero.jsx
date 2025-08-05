@@ -46,7 +46,7 @@ const Hero = () => {
           animate="visible"
           variants={textVariant}
         >
-          I'm a passionate developer focused on building clean and efficient digital experiences.
+          I'm a passionate developer focused on building clean and efficient digital experiences. Currently, I work at ZF in Schweinfurt, where I focus on innovative solutions.
         </motion.p>
 
         {/* Social Icons */}
