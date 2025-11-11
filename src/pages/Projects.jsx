@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import ProjectCard from "../components/ProjectCard"
+import BackToTopButton from "../components/BackToTopButton"
 import benchLabImage from "../assets/benchlab.png"
 import nextUpImage from "../assets/nextup.jpg"
 import dashbounceImage from "../assets/dashbounce.jpg"
@@ -68,6 +69,8 @@ const Projects = () => {
           </motion.div>
         ))}
       </div>
+
+      <BackToTopButton />
     </>
   )
 }
