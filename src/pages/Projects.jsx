@@ -4,8 +4,17 @@ import BackToTopButton from "../components/BackToTopButton"
 import benchLabImage from "../assets/benchlab.png"
 import nextUpImage from "../assets/nextup.jpg"
 import dashbounceImage from "../assets/dashbounce.jpg"
+import pcb from "../assets/pcb.png"
 
 const projectData = [
+  {
+    image: pcb,
+    title: "Custom PCB Design",
+    tools: "KiCad | JLCPCB",
+    description:
+      "🔧 Designed and fabricated a custom PCB to build hardware skills, featuring integrated power management and sensor interfaces. Layout in KiCad, manufactured via JLCPCB.",
+    year: "2025",
+  },
   {
     image: benchLabImage,
     title: "ZF BenchLab",
